@@ -224,6 +224,7 @@ footer p{
 	margin: 0px 10px 5px 0px;
 }
 footer .num-pag {
+	cursor: pointer;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -233,8 +234,14 @@ footer .num-pag {
 	border: 1px solid gray;
 	margin: 0px 10px 5px 0px;
 }
+footer .activo{
+	background: gray;
+	color: white;
+}
+
 
 footer .button {
+	cursor: pointer;
 	display: flex;
 	align-items: center;
 	height: 30px;
